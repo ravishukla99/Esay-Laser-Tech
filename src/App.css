@@ -1,10 +1,86 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif, sans-serif;
+
+}
+
+  
+
+/* style={{width:"100%",borderRight:"1px solid grey"}}/ */
+
+.navbar-nav .nav-link.active {
+	color: #d45642 !important; /* Change to your desired active color */
+	/* Add any additional styles for the active link */
+  }
+
+h1,h2,h3,h4,h5{
+	font-family: "oblique";
+}
+
+/* whatsaap icon */
+.whatsapp-fixed{
+	position: fixed;
+	margin: 18px;
+	margin-top: 490px;
+	margin-bottom: 499px;
+	z-index: 1;
+	
+}
+
+/* try hover */
+h:hover::after{
+transform: scaleX(1);
+}
+h:hover{
+	content:"" ;
+	position: absolute;
+	bottom: -2px;
+	height: 6px;
+	width: 100%;
+	left: 0;
+	background-color: #61dafb;
+	border-radius: 50px;
+	transform: scale(0);
+	transition: transform 0.2s linear;
+	cursor: pointer;
+}
+
+
+
+
+.shado:hover {
+	/* transform: scale(1.1); */
+	h4{
+		transition: all .6s;
+	background-color: rgb(25,154,216);
+    color:white;
+	cursor: pointer;
+	}
+}
+.shado1:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: all .6s;
+	cursor: pointer;
+}
+.shad:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: all .6s;
+	cursor: pointer;
+}
 .App {
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.footer-img{
+	background-image: url("https://cdn.wallpapersafari.com/52/19/POdlwn.jpg");
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
